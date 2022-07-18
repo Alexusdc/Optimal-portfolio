@@ -15,13 +15,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 35px;
-    color: #ADE7E6;
+    color: #5C5B5D;
     margin: 0;
     display: inline;
 }
 
 header a {
-    color: #ADE7E6;
+    color: #AEED8A;
     text-decoration: none;
 }
 
@@ -41,4 +41,32 @@ header nav ul {
 header nav ul li a {
     margin: 0 5px;
     font-size: 22px;
-  }
+}
+
+footer {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+footer h2 {
+    padding: 25px; 
+    display: flex;
+}
+
+footer a {
+    color: #5C5B5D;
+    text-decoration: underline;
+    margin: 0 100px;
+    font-size: 24px;
+    flex-wrap: wrap;
+
+}
+
+.section-title {
+    font-size: 36px;
+    border-right: solid;
+    color: #5C5B5D;
+}
