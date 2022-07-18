@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* header styling start */
 header {
     background-color: #5C5B5D;
     padding: 20px 50px;
@@ -42,7 +43,18 @@ header nav ul li a {
     margin: 0 5px;
     font-size: 22px;
 }
+/* header styling end */
 
+/* title styling start */ 
+.section-title {
+    font-size: 36px;
+    border-right: solid;
+    color: #5C5B5D;
+}
+/* title styling end */ 
+
+
+/* footer styling start */
 footer {
     width: 100%;
     align-items: center;
@@ -64,9 +76,4 @@ footer a {
     flex-wrap: wrap;
 
 }
-
-.section-title {
-    font-size: 36px;
-    border-right: solid;
-    color: #5C5B5D;
-}
+/* footer styling end */ 
