@@ -1,7 +1,18 @@
-
 * {
     margin: 0;
     padding: 0;
+}
+
+body, body a{
+    color: #5C5B5D;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+body a{
+    text-decoration: underline;
 }
 
 /* header styling start */
@@ -45,35 +56,54 @@ header nav ul li a {
 }
 /* header styling end */
 
+/* hero styling start */ 
+.hero {
+    background-image: url("../files/hero-image.jpeg");
+    height: 300px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero h2 {
+    color: #AEED8A;
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+}
+
+/* hero styling end */
+
 /* title styling start */ 
 .section-title {
     font-size: 36px;
     border-right: solid;
     color: #5C5B5D;
-}
-/* title styling end */ 
-
-
-/* footer styling start */
-footer {
-    width: 100%;
-    align-items: center;
+    padding: 25px;
+    width: 15%;
+    display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;
 }
+/* title styling end */
 
-footer h2 {
-    padding: 25px; 
-    display: flex;
-}
-
-footer a {
+/* my info styling start */
+.my-info {
     color: #5C5B5D;
-    text-decoration: underline;
     margin: 0 100px;
-    font-size: 24px;
+    padding-bottom: 50px;
+    display: flex;
     flex-wrap: wrap;
-
+    align-items: center; 
+    justify-content: space-evenly;
 }
-/* footer styling end */ 
+/* my info styling end */
+
+/* about me styling starts */
+
+/* about me styling end */ 
