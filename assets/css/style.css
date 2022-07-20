@@ -29,7 +29,7 @@ header h1 {
     font-size: 35px;
     color: #5C5B5D;
     margin: 0;
-    display: inline;
+
 }
 
 header a {
@@ -91,6 +91,44 @@ header nav ul li a {
     justify-content: space-between;
 }
 /* title styling end */
+
+/* about me styling start */
+
+/* about me styling end */
+
+/* work styling start */
+.work {
+    position: relative;
+}
+
+.placeholder-imgs-1 {
+    border: solid 3px #AEED8A;
+    height: 400px;
+    width: 800px;
+    opacity: .5;
+    transition: .4s;
+}
+
+.placeholder-imgs-1:hover {
+    opacity: .7;
+}
+
+.projects h3 {
+    position: absolute;
+    background-color: #AEED8A;
+    color:#5C5B5D;
+    padding: 20px;
+}
+
+.placeholder-imgs {
+    width: 350px;
+    height: 200px;
+    border: solid 3px #AEED8A;
+    opacity: .5;
+    transition: .4s;
+}
+
+/* work styling end */
 
 /* my info styling start */
 .my-info {
