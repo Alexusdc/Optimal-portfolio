@@ -81,13 +81,10 @@ header nav ul li a {
 
 /* title styling start */ 
 .section-title {
-    font-size: 36px;
+    font-size: 30px;
     color: #5C5B5D;
     padding: 25px;
-    width: 15%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex;
 }
 /* title styling end */
 
@@ -100,8 +97,14 @@ header nav ul li a {
     display: flex;
 }
 
+.work h2 {
+    margin-left:100px;
+    text-align: right;
+}
+
 .projects {
-    border-left: solid;}
+    border-left: solid #5C5B5D 5px;
+}
 
 .projects h3 {
     position: absolute;
@@ -110,7 +113,7 @@ header nav ul li a {
 }
 
 .project-title {
-    margin-left: 100px;
+    margin-left: 200px;
     margin-bottom: 25px;
 }
 
@@ -119,7 +122,7 @@ header nav ul li a {
     opacity: .5;
     transition: .4s;
     display: flex;
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
@@ -128,7 +131,7 @@ header nav ul li a {
 }
 
 .images {
-    width: 200px;
+    width: 250px;
     height: 150px;
     border: solid 3px #AEED8A;
     opacity: .5;
@@ -137,30 +140,37 @@ header nav ul li a {
 }
 
 .img {
-    width: 200px;
+    width: 250px;
     height:150px;
 }
 
 .placeholder-imgs-2, .placeholder-imgs-3 {
     display: flex;
-    margin-left: 125px;
+    margin-left: 225px;
     margin-bottom: 25px;
 }
-
 /* work styling end */
 
-/* my info styling start */
-.my-info {
+/* contact info styling start */
+
+#contact-me {
+    display: flex;
+}
+
+.contact h2 {
+    margin-left: 100px;
+    text-align: right;
+}
+
+.information {
     color: #5C5B5D;
-    margin: 0 100px;
-    padding-bottom: 50px;
+    padding: 20px 50px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center; 
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+
+    border-left: solid #5C5B5D 5px;
 }
-/* my info styling end */
 
-/* about me styling starts */
-
-/* about me styling end */ 
+/* contact info styling end */
