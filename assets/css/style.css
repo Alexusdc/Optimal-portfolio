@@ -11,8 +11,9 @@ body, body a{
     flex-wrap: wrap;
 }
 
-body a{
+body a {
     text-decoration: underline;
+
 }
 
 /* header styling start */
@@ -57,6 +58,7 @@ header nav ul li a {
 /* header styling end */
 
 /* hero styling start */ 
+
 .hero {
     background-image: url("../files/hero-image.jpeg");
     height: 300px;
@@ -85,25 +87,38 @@ header nav ul li a {
     color: #5C5B5D;
     padding: 25px;
     display: flex;
+    margin-top: 25px;
 }
 /* title styling end */
 
 /* about me styling start */
+#about-me {
+    display: flex;
+    margin-left:100px;
+    text-align: right;
+}
 
+.my-info {
+    border-left: solid #5C5B5D 5px;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 /* about me styling end */
 
 /* work styling start */
 #work {
     display: flex;
-}
-
-.work h2 {
     margin-left:100px;
     text-align: right;
 }
 
 .projects {
     border-left: solid #5C5B5D 5px;
+    margin-top: 50px;
 }
 
 .projects h3 {
@@ -160,17 +175,21 @@ header nav ul li a {
 .contact h2 {
     margin-left: 100px;
     text-align: right;
+    margin-top: 100px;
 }
 
 .information {
     color: #5C5B5D;
-    padding: 20px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
+    padding: 50px;
     border-left: solid #5C5B5D 5px;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.info {
+    margin-right: 75px;
 }
 
 /* contact info styling end */
