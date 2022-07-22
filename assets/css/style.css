@@ -13,7 +13,6 @@ body, body a{
 
 body a {
     text-decoration: underline;
-
 }
 
 /* header styling start */
@@ -37,6 +36,7 @@ header {
 
 header a {
     text-decoration: none;
+    font-size: 48px;
 }
 
 header nav {
@@ -56,7 +56,7 @@ header nav ul {
 header nav ul li a {
     color: #AEED8A;
     margin-right: 25px;
-    font-size: 22px;
+    font-size: 30px;
 }
 /* header styling end */
 
@@ -87,7 +87,7 @@ header nav ul li a {
 
 /* title styling start */ 
 .section-title {
-    font-size: 30px;
+    font-size: 48px;
     color: #5C5B5D;
     padding: 25px;
     display: flex;
@@ -185,7 +185,7 @@ header nav ul li a {
 }
 
 .contact h2 {
-    margin-left: 100px;
+    margin-left: 80px;
     text-align: right;
     margin-top: 100px;
 }
@@ -201,8 +201,11 @@ header nav ul li a {
 }
 
 .info {
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 75px;
+    margin-left: 80px;
 }
-
 /* contact info styling end */
+
+/* styling for different window sizes start */
+
+/* styling for different window sizes start */
