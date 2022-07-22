@@ -6,7 +6,7 @@ This functional website show cases my proudest work, as well as my contact infor
 ## Usage 
 In order to use Optimal Portfolio, please refer to the following images 
 
-! [screenshot] (https://user-images.githubusercontent.com/106570615/180364585-c7c351b2-fdb3-404e-8eb5-b2ff1d8fc0d2.png)
+<img width="1420" alt="Screen Shot 2022-07-21 at 9 41 07 PM" src="https://user-images.githubusercontent.com/106570615/180365479-be7b6880-4e37-4bdd-9c5b-34918e1f47cd.png">
 ! [screenshot] (https://user-images.githubusercontent.com/106570615/180364766-2ec009d2-c0a6-408c-93bf-8e352cab7b6b.png)
 ! [screenshot] (https://user-images.githubusercontent.com/106570615/180364835-67f39a01-06a5-4656-87e4-ccd0ff42cff5.png)
 
