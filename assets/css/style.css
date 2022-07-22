@@ -23,6 +23,7 @@ header {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
+    padding: 25px 25px 25px 0;
 }
 
 #Christensen {
@@ -54,7 +55,7 @@ header nav ul {
 
 header nav ul li a {
     color: #AEED8A;
-    margin: 0 5px;
+    margin-right: 25px;
     font-size: 22px;
 }
 /* header styling end */
@@ -64,7 +65,6 @@ header nav ul li a {
 .hero {
     background-image: url("../files/hero-image.jpeg");
     height: 300px;
-    margin-bottom: 50px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -75,10 +75,12 @@ header nav ul li a {
 }
 
 .hero h2 {
-    color: #AEED8A;
+    background-color: #AEED8A;
+    color: #5C5B5D;
     position: absolute;
-    bottom: 10px;
-    right: 10px; 
+    bottom: 30px;
+    right: 75px; 
+    padding: 15px;
 }
 
 /* hero styling end */
@@ -141,8 +143,8 @@ header nav ul li a {
     opacity: .5;
     transition: .4s;
     display: flex;
-    width: 600px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
 }
 
 .placeholder-imgs-1:hover {
@@ -150,8 +152,8 @@ header nav ul li a {
 }
 
 .images {
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
     border: solid 3px #AEED8A;
     opacity: .5;
     transition: .4s;
@@ -159,8 +161,8 @@ header nav ul li a {
 }
 
 .img {
-    width: 250px;
-    height:150px;
+    width: 350px;
+    height: 250px;
 }
 
 .placeholder-imgs-2, .placeholder-imgs-3 {
@@ -193,8 +195,8 @@ header nav ul li a {
 }
 
 .info {
-    margin-right: 45px;
-    margin-left:45px;
+    margin-right: 90px;
+    margin-left: 90px;
 }
 
 /* contact info styling end */
