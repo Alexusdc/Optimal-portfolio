@@ -125,6 +125,7 @@ header nav ul li a {
 .projects {
     border-left: solid #5C5B5D 5px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .text-block {
@@ -132,11 +133,13 @@ header nav ul li a {
     background-color: #AEED8A;
     color:#5C5B5D;
     opacity: 1;
+    flex-wrap: wrap;
 }
 
 .project-title {
     margin-left: 150px;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 
 .placeholder-imgs-1 {
@@ -146,6 +149,7 @@ header nav ul li a {
     display: flex;
     width: 800px;
     height: 400px;
+    flex-wrap: wrap;
 }
 
 .placeholder-imgs-1:hover {
@@ -170,6 +174,7 @@ header nav ul li a {
     display: flex;
     margin-left: 175px;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 /* work styling end */
 
